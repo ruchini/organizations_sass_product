@@ -1,0 +1,156 @@
+.container {
+    font-family: Arial, sans-serif;
+    background-color: #5e5c5e;
+    margin: 0 auto;
+    max-width: 100%;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    color: #0c0c0c;
+}
+
+.organization-list {
+    list-style: none;
+    padding: 0;
+}
+
+.organization {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.organization-name {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #161515;
+}
+
+.location-list {
+    list-style: none;
+    padding: 0;
+}
+
+.location {
+    margin: 10px 0;
+}
+
+.location-name {
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 5px;
+    color: #161515;
+}
+
+.device-list {
+    list-style: none;
+    padding: 0;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.button-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #828082;
+    color: #1e1a1a;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #1a031a;
+    color: #f8f2f2;
+}
+
+/* Define media queries for responsiveness */
+@media (min-width: 768px) {
+    .container {
+        grid-template-columns: 1fr 1fr;
+    }
+    .organization-list {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+    }
+    .organization {
+        border: none;
+        background-color: #828082;
+    }
+}
+
+.location-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.toggle-devices {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 12px;
+    color: #161515;
+}
+
+.device-list.hidden {
+    display: none;
+}
+
+.device-list.visible {
+    display: block;
+}
+
+/* Adjust the device list font size */
+.device-list li {
+    font-size: 16px;
+}
+
+.device {
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #f2eaea;
+}
+
+/* Add some basic styling to the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1em 0;
+    border: 1px solid #ddd;
+    color: #f4f0f0;
+}
+
+/* Style the table headers */
+th {
+    background-color: #737074;
+    font-size: 14px;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Style even and odd rows differently for better readability */
+tr:nth-child(even) {
+    background-color: #9e979d;
+    color: #0c0c0c;
+}
+
+tr:nth-child(odd) {
+    background-color: #9e979d;
+    color: #0c0c0c;
+}
