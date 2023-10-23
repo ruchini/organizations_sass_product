@@ -7,8 +7,6 @@ Welcome to the Organizational Management System, a Laravel-based web application
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
@@ -45,5 +43,10 @@ Follow these steps to get the project up and running on your local machine:
     php artisan serve
 6. Visit http://localhost:8000 in your web browser.
 
+## Usage
+   - Access the application by visiting the URL where you've served the project (e.g., http://localhost:8000).
+   - Click on "Add Organization" to create a new organization.
+   - Add locations and devices within organizations as needed.
+   - View and manage organizations, locations, and devices within the system.
 
 
