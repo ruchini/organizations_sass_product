@@ -7,6 +7,7 @@ Welcome to the Organizational Management System, a Laravel-based web application
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
+- [WorkingApp](#Working App)
 
 ## Features
 
@@ -33,7 +34,7 @@ Follow these steps to get the project up and running on your local machine:
    - Generate an application key:
 
    ```sh 
-   php artisan key:generate
+   php artisan key: generate
 
 4. Run Database Migrations and Seed the Database::
     ```sh
@@ -48,5 +49,13 @@ Follow these steps to get the project up and running on your local machine:
    - Click on "Add Organization" to create a new organization.
    - Add locations and devices within organizations as needed.
    - View and manage organizations, locations, and devices within the system.
+
+## Working App
+
+- ![home page](public/assests/home_page.png)
+- ![home page 2](public/assests/home_page2.png)
+- ![Add Organizations](public/assests/create_org.png)
+- ![Add Locations](public/assests/create_loc.png)
+- ![Add devices](public/assests/create_device.png)
 
 
